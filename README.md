@@ -28,18 +28,39 @@ The Daily Expense Tracker is a personal finance web application that helps users
 
 ```
 DailyExpenseTracker/
-├── src/
-│   ├── controller/
-│   ├── model/
-│   └── view/
-├── WebContent/
-│   ├── jsp/
-│   ├── css/
-│   ├── js/
-│   └── index.jsp
-├── database/
-│   └── expense_tracker.sql
-└── README.md
+│
+├── assets/                         # Image, icons, or other static assets
+├── css/                            # External CSS files for styling
+├── fonts/                          # Font files used in the UI
+├── includes/                       # Common PHP includes (header, footer, DB config)
+├── js/                             # JavaScript files (form validations, interactivity)
+├── sass/                           # SASS files (if using SCSS-based styling)
+├── tables/                         # Exportable or formatted report tables
+│
+├── add-expense.php                 # Page to add new expense
+├── change-password.php             # Page to change user password
+├── dashboard.php                   # User dashboard showing summary
+├── expense-datewise-reports.php   # Reports filtered by date
+├── expense-datewise-reports-detailed.php
+├── expense-monthwise-reports.php  # Reports filtered by month
+├── expense-monthwise-reports-detailed.php
+├── expense-reports.php            # General expense report
+├── expense-reports-detailed.php
+├── expense-yearwise-reports.php   # Reports filtered by year
+├── expense-yearwise-reports-detailed.php
+├── forgot-password.php            # Forgot password page
+├── index.php                      # ✅ LOGIN PAGE (your entry point)
+├── logout.php                     # Logout handler
+├── manage-expense.php             # View / Edit / Delete expenses
+├── register.php                   # User registration page
+├── reset-password.php             # Reset password after OTP
+├── user-profile.php               # User profile management
+│
+├── .gitignore                     # Git ignore rules
+├── LICENSE                        # Project license
+├── README.md                      # Project README
+└── SQL File                       # Database structure (.sql file for importing)
+
 ```
 
 ## How to Run the Project
