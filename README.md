@@ -91,6 +91,13 @@ DailyExpenseTracker/
 Final-year Computer Science Engineering student  
 GitHub: [ShashaankBhat](https://github.com/ShashaankBhat)
 
+
+**Saniya Sheldarkar**  
+Final-year Computer Science Engineering student  
+GitHub: [ShashaankBhat](https://github.com/SaniyaSheldarkar)
+
+
+
 ## License
 
 This project is licensed under the MIT License.
